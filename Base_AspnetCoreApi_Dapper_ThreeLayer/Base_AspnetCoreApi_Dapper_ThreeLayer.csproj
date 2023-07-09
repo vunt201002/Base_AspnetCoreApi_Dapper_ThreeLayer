@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6afb570f-f4b5-4991-acb2-d260ddcbacb6</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Base_AspnetCoreApi_Dapper_ThreeLayer.BL\Base_AspnetCoreApi_Dapper_ThreeLayer.BL.csproj" />
+    <ProjectReference Include="..\Base_AspnetCoreApi_Dapper_ThreeLayer.Common\Base_AspnetCoreApi_Dapper_ThreeLayer.Common.csproj" />
+  </ItemGroup>
+
+</Project>

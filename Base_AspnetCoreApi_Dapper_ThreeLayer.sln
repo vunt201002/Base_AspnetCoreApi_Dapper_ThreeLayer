@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base_AspnetCoreApi_Dapper_ThreeLayer", "Base_AspnetCoreApi_Dapper_ThreeLayer\Base_AspnetCoreApi_Dapper_ThreeLayer.csproj", "{0A91A8F8-4706-447C-BEB4-42CEFDADB7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base_AspnetCoreApi_Dapper_ThreeLayer.Common", "Base_AspnetCoreApi_Dapper_ThreeLayer.Common\Base_AspnetCoreApi_Dapper_ThreeLayer.Common.csproj", "{96CCF1ED-E08A-4E25-8B4D-C622FDC3692E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base_AspnetCoreApi_Dapper_ThreeLayer.BL", "Base_AspnetCoreApi_Dapper_ThreeLayer.BL\Base_AspnetCoreApi_Dapper_ThreeLayer.BL.csproj", "{E9E808F5-9C32-41DA-B930-D7E9538768F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base_AspnetCoreApi_Dapper_ThreeLayer.DL", "Base_AspnetCoreApi_Dapper_ThreeLayer.DL\Base_AspnetCoreApi_Dapper_ThreeLayer.DL.csproj", "{A10EF862-B201-4C22-B0C9-77F8A56B8439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base_AspnetCoreApi_Dapper_ThreeLayer.UnitTest", "Base_AspnetCoreApi_Dapper_ThreeLayer.UnitTest\Base_AspnetCoreApi_Dapper_ThreeLayer.UnitTest.csproj", "{2B460E94-D8A7-4E50-9901-9A51F0B73949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A91A8F8-4706-447C-BEB4-42CEFDADB7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A91A8F8-4706-447C-BEB4-42CEFDADB7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A91A8F8-4706-447C-BEB4-42CEFDADB7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A91A8F8-4706-447C-BEB4-42CEFDADB7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CCF1ED-E08A-4E25-8B4D-C622FDC3692E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CCF1ED-E08A-4E25-8B4D-C622FDC3692E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CCF1ED-E08A-4E25-8B4D-C622FDC3692E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CCF1ED-E08A-4E25-8B4D-C622FDC3692E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E808F5-9C32-41DA-B930-D7E9538768F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E808F5-9C32-41DA-B930-D7E9538768F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E808F5-9C32-41DA-B930-D7E9538768F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E808F5-9C32-41DA-B930-D7E9538768F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10EF862-B201-4C22-B0C9-77F8A56B8439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10EF862-B201-4C22-B0C9-77F8A56B8439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10EF862-B201-4C22-B0C9-77F8A56B8439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10EF862-B201-4C22-B0C9-77F8A56B8439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B460E94-D8A7-4E50-9901-9A51F0B73949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B460E94-D8A7-4E50-9901-9A51F0B73949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B460E94-D8A7-4E50-9901-9A51F0B73949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B460E94-D8A7-4E50-9901-9A51F0B73949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BF21723-3AA1-43D2-91F8-922B10148919}
+	EndGlobalSection
+EndGlobal
